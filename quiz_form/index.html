@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz</title>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>simple javascript Quiz</h1>
+            <p>Test your knowledge of <strong>JavaScript</strong></p>
+        </header>
+        <div class="question-wrapper">
+            <div id="results"></div>
+            <form action="" name="quizForm" onsubmit="return submitAnswers()">
+                <!-- question 1 -->
+                <div class="question">1. Which file is for the style of a website</div>
+                <input type="radio" name="q1" value="a" id="q1a">a. &lt;script&gt;<br>
+                <input type="radio" name="q1" value="b" id="q1b">b. &lt;html&gt;<br>
+                <input type="radio" name="q1" value="c" id="q1c">c. &lt;css&gt;<br>
+                <input type="radio" name="q1" value="d" id="q1d">d. &lt;php&gt;<br>
+                <!-- question 2 -->
+                <div class="question">2. Which selector is for class?</div>
+                <input type="radio" name="q2" value="a" id="q2a">a. "#"<br>
+                <input type="radio" name="q2" value="b" id="q2b">b. "."<br>
+                <input type="radio" name="q2" value="c" id="q2c">c. "[]"<br>
+                <input type="radio" name="q2" value="d" id="q2d">d. ""<br>
+                <button type="submit" id="submit-button">submit</button>
+            </form>  
+        </div>
+        <footer>
+            <p>Copyright &copy; 2017. All right Reserved. VertexC</p>
+        </footer>
+    </div>
+</body>
+</html>
